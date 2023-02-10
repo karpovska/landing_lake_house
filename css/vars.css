@@ -13,5 +13,15 @@
     --clr-brown: #967E76;
     --clr-brown-dark: #5F4F49;   
 
+    /* GAPS */
+    --gap-xs: 4px;
+    --gap-sm: 8px;
+    --gap-md: 16px;
+    --gap-lg: 32px;
+    --gap-xl: 64px;
 
+    /* WIDTH */
+    --width-sm: 592px;
+    --width-md: 794px;
+    --width-full: 100%;
 }
