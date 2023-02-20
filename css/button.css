@@ -33,29 +33,11 @@
     color: var(--btn-label-color);
 }
 
+.btn:hover {
+    --clr: var(--btn-active-fill);
+}
 
+.btn:active {
+    transform: translateY(1px);
+}
 
-box-sizing: border-box;
-
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 10px 16px;
-gap: 10px;
-
-position: absolute;
-width: 108px;
-height: 40px;
-left: 40px;
-top: 173px;
-
-/* Brown/Soft brown */
-
-background: #EEE4DD;
-/* Brown/Dark brown */
-
-border: 1px solid #5F4F49;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 4px;
