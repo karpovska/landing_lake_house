@@ -1,0 +1,61 @@
+.btn {
+    --btn-idle-fill: var(--clr-brown-dark);
+    --btn-active-fill: var(--clr-brown);
+    --btn-label-color: white;
+    --clr: var(--btn-idle-fill);
+
+    /* Reset */
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 20px;
+    background: none;
+    border: none;
+
+    /* Styles */
+    font-weight: 400;
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    flex: none;
+}
+
+.btn.small {
+    padding: 6px 10px;
+}
+
+.btn.outlained {
+    border-color: var(--clr);
+    color: var(--clr);
+}
+
+.btn.solid {
+    background: var(--clr);
+    color: var(--btn-label-color);
+}
+
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 108px;
+height: 40px;
+left: 40px;
+top: 173px;
+
+/* Brown/Soft brown */
+
+background: #EEE4DD;
+/* Brown/Dark brown */
+
+border: 1px solid #5F4F49;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
