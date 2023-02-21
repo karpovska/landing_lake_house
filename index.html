@@ -5,8 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lake House</title>
+    <link rel="stylesheet" href="css/vars.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/list.css" />
+    <link rel="stylesheet" href="css/typography.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="" />
 </head>
 <body>
+    <header class="page-header grid-container">
+        <div class="header-content grid-content">
+            <svg height="40" width="87" class="logo">
+                <use href="./assets/icons/logo.svg"/>                
+            </svg>
+
+            <nav class="main-nav heading-xs">
+                <a href="#">Start</a>
+                <a href="#">Contact</a>
+                <a href="#">Our history</a>
+            </nav>
+
+            <div class="social">
+                <a href="#">
+                    <svg width="24" height="24">
+                        <use href="./assets/icons/fb.svg"></use>
+                    </svg>
+                </a>
+
+                <a href="#">
+                    <svg width="24" height="24">
+                        <use href="./assets/icons/ig.svg"></use>
+                    </svg>
+                </a>
+
+                <a href="#">
+                    <svg width="24" height="24">
+                        <use href="./assets/icons/pn.svg"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="grid-container">
+        <section class="grid-content-full grid-container hero cover">
+            <div class="grid-content">
+                <p class="heading-md gutter">
+                    Experience the perfect combination of modern housing & natural scenery
+                </p>
+                <button class="btn solid call-to-action">Book now</button>
+            </div>
+        </section>
+
+        <section class="grid-content-full grid-container tint">
+            <div class="grid-content section-content about-section">
+                <img src="assets/lake.png" alt="Lake" />
+                <div class="about-desctiption body-md">
+                    <p class="gutter">LAKE HOUSE is an authentic spa hotel lost in the middle of the forest. The dreamy landscape promises a peaceful journey away from the noisy world. Visiting LAKE HOUSE is a true experience of a private secluded space. Everything is organic and natural. 
+                        A guest who has visited our hotel at least once dreams of returning to the unparalleled, soothing, attractive atmosphere of LAKE HOUSE.
+                    </p>
+
+                    <p class="gutter">We have created a design that is one hundred percent integrated into the existing landscape, and in no way harms the natural environment.
+                    </p>
+                    
+                    <p class="gutter">
+                        We are very proud that we did not cut down a single tree during the construction period. Careful attitude towards the existing environment is one of the most important missions of our project.
+                    </p>
+
+                    <p class="gutter">
+                        We offer our guests a concept of hospitality that is much more than the standard bed and board approach. The concept of our project has clear real goals:
+                        - Environmental Protection,
+                        - preservation of forests,
+                        - growing organic vegetables, etc.
+                    </p>
+
+                    <p class="gutter">
+                        We created a feeling of transparency and freshness, filled the space with light and complemented the unforgettable natural atmosphere with wooden accents, soft comfortable floors and modern design. Impressive views from the windows will capture your imagination, provide inspiration and create a feeling of complete unity with nature.
+                    </p>                  
+                </div> 
+            </div>
+        </section>
+
+        <section class="grid-content section-content">
+            <p class="heading-lg align-center">
+                The Lake House is the perfect weekend getaway cabin
+            </p>
+        </section>
+    </main>
     
 </body>
 </html>

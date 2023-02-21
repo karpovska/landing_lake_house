@@ -11,8 +11,9 @@
 }
 
 .grid-container {
+    display: grid;
     --flap: minmax(16px, 1fr);
-    --content: minmax(var(--min-width), (var(--max-width)));
+    --content: minmax(var(--min-width), var(--max-width));
 
     grid-template-columns: 
      var(--flap)
@@ -21,6 +22,7 @@
 }
 
 .grid-content {
+    display: grid;
     grid-column: 2 / 3;
 }
 
