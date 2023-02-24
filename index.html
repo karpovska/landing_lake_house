@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lake House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500&family=Merriweather:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/vars.css" />
     <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/list.css" />
@@ -345,6 +351,74 @@
             </div>           
         </section>
     </main>
+
+    <footer class="grid-container">
+        <div class="grid-content footer-content">
+            <ul class="contacts">
+                <li class="body-md">
+                    <p class="caption gutter">Social media</p>
+                    <div class="social">
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use href="./assets/icons/fb.svg"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use href="./assets/icons/ig.svg"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a href="#">
+                            <svg width="24" height="24">
+                                <use href="./assets/icons/pn.svg"/>
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <h2 class="body-md caption">Address</h2>
+                    <address class="body-md">
+                        Klubbvika 12, 8310 Kabelvag, Norway
+                    </address>
+                </li>
+                <li>
+                    <h2 class="body-md caption">Phone</h2>
+                    <p class="body-md">
+                        <a href="tel:+470702881234" class="phone">+47 (0) 702 88 12 34</a>
+                    </p>
+                </li>
+            </ul>
+
+            <form action="POST">
+                <div class="form-header">
+                    <h3 class="body-md caption">Newsletter</h3>
+                    <p class="body-md">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.
+                    </p>
+                </div>
+                <div class="email-box">
+                    <input type="text" class="input" placeholder="Email"/>
+                    <button class="btn solid small">Submit</button>
+                </div>
+            </form>
+
+            <div class="legal">
+                <svg width="91" height="40">
+                    <use href="./assets/icons/logo.svg" />
+                </svg>
+            </div>
+            <p class="body-md">
+                © Lake House, LLC. All rights reserved. Powered by Example Company
+            </p>
+            <p class="body-md">
+                +47 (0) 702 88 12 34 - example@example.io - Klubbvika 12, 8310 Kabelvag, Norway
+            </p>
+        </div>
+    </footer>  
     
 </body>
 </html>
