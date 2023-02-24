@@ -38,3 +38,52 @@ a {
 .btn.call-to-action {
     --btn-idle-fill: var(--clr-orange);
 }
+
+.divider {
+    width: 80px;
+    height: 4px;
+    background-color: var(--clr-orange);
+    border: none;
+}
+
+.about-section {
+    display: grid;
+    grid-template-areas: "image text";
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: auto;
+    gap: var(--gap-md);
+}
+
+.about-section img {
+    grid-area: image;
+    aspect-ratio: 1 / 1;
+    max-width: 320px;
+    object-fit: cover;
+}
+
+.about-section .divider {
+    grid-area: text;
+    align-self: end;
+    justify-self: end;
+}
+
+.about-section .about-description {
+    grid-area: text;
+    columns: 2;
+    gap: var(--gap-md);
+}
+
+.arrangements-list {
+    --icon-size: 40px;
+    display: grid;    
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap-lg);
+    text-align: center;
+}
+
+.arrangements-list .grid-list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

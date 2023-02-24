@@ -8,14 +8,14 @@
 
 .grid-list-item {
     display: grid;
-    column-gap: var(--col-gap);
     row-gap: var(--row-gap);
+    column-gap: var(--col-gap);    
 }
 
 .grid-list-item .icon {
     width: var(--icon-size);
     aspect-ratio: 1;
-    grid-row: 1 / -5;
+    grid-row: span 2;
 }
 
 .grid-list-item:has(.icon) {
@@ -31,7 +31,7 @@
 }
 
 .grid-list-item:has(p + p) {
-    grid-template-columns: auto;
+    grid-template-rows: auto;
 }
 
 .grid-list-item:has(p + p) p:last-of-type {
