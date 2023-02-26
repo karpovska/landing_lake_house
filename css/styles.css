@@ -107,3 +107,17 @@ a {
 :is(.arrangements-list, .premises-list) p:first-of-type {
     font-weight: bold;
 }
+
+.benefits-section {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-xl);
+}
+
+.benefits-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-lg);
+    --icon-size: 40px;
+    --col-gap: var(--gap-sm);
+}

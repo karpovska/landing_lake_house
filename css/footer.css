@@ -1,0 +1,25 @@
+footer {
+    background-color: var(--clr-brown-dark);
+    color: white;
+    padding: var(--gap-xl) 0;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-areas: "contacts newsletter" "legal legal";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: var(--gap-xl);
+}
+
+.input {
+    border: 1px solid var(--clr-brown);
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+}
+
+email-box {
+    position: relative;
+}
+
