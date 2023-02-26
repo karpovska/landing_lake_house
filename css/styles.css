@@ -73,6 +73,10 @@ a {
     gap: var(--gap-md);
 }
 
+.tint {
+    background-color: var(--clr-brown-soft);
+}
+
 .arrangements-list {
     --icon-size: 40px;
     display: grid;    
@@ -87,3 +91,19 @@ a {
     align-items: center;
 }
 
+.icon {
+    color: var(--clr-brown);
+}
+
+.premises-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: var(--gap-lg);
+    column-gap: var(--gap-xl);
+    --col-gap: var(--gap-sm);
+    --icon-size: 40px;
+}
+
+:is(.arrangements-list, .premises-list) p:first-of-type {
+    font-weight: bold;
+}
