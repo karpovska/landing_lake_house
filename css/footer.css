@@ -19,7 +19,47 @@ footer {
     width: 100%;
 }
 
-email-box {
+.email-box {
     position: relative;
+}
+
+.email-box .btn {
+    position: relative;
+    top: 8px;
+    right: 8px;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-md);
+}
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+    list-style: none;
+    padding: 0;
+}
+
+.legal{
+    grid-area: legal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--gap-md);
+}
+
+.feedback-author {
+    border-left: 2px solid var(--clr-orange);
+    padding-left: 16px;
 }
 
