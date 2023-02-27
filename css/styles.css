@@ -121,3 +121,26 @@ a {
     --icon-size: 40px;
     --col-gap: var(--gap-sm);
 }
+
+@media screen and (max-width: 640px) {
+    .arrangements-list {
+        grid-template-columns: auto;
+    }
+
+    .premises-list {
+        grid-template-columns: auto;
+    }
+
+    .benefits-list {        
+        grid-template-columns: repeat(1, 1fr );
+    }
+
+    .about-section {        
+        grid-template-columns: none;
+        grid-template-areas: "text image";
+    }
+
+    .about-section .about-description {        
+        columns: 1;
+    }
+}
